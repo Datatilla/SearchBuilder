@@ -222,14 +222,12 @@ export default class Criteria {
 				.attr('type', 'button'),
 			inputCont: $('<div/>')
 				.addClass(this.classes.inputCont),
-			// eslint-disable-next-line no-useless-escape
 			left: $('<button/>')
 				.html(this.s.dt.i18n('searchBuilder.left', i18n.left))
 				.addClass(this.classes.left)
 				.addClass(this.classes.button)
 				.attr('title', this.s.dt.i18n('searchBuilder.leftTitle', i18n.leftTitle))
 				.attr('type', 'button'),
-			// eslint-disable-next-line no-useless-escape
 			right: $('<button/>')
 				.html(this.s.dt.i18n('searchBuilder.right', i18n.right))
 				.addClass(this.classes.right)

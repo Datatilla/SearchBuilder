@@ -155,7 +155,6 @@ export default class SearchBuilder {
 					notBetween: 'Not Between',
 					notEmpty: 'Not Empty',
 				},
-				// eslint-disable-next-line id-blacklist
 				number: {
 					between: 'Between',
 					empty: 'Empty',
@@ -168,7 +167,6 @@ export default class SearchBuilder {
 					notBetween: 'Not Between',
 					notEmpty: 'Not Empty',
 				},
-				// eslint-disable-next-line id-blacklist
 				string: {
 					contains: 'Contains',
 					empty: 'Empty',
@@ -375,7 +373,6 @@ export default class SearchBuilder {
 		}
 
 		// Check that DateTime is included, If not need to check if it could be used
-		// eslint-disable-next-line no-extra-parens
 		if (!(dataTable as any).DateTime) {
 			let types = this.s.dt.columns().types().toArray();
 

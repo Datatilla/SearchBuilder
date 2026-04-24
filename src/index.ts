@@ -33,20 +33,13 @@ criteriaJQuery($);
 declare var DataTable: any;
 const dataTable: any = $.fn.dataTable;
 
-// eslint-disable-next-line no-extra-parens
 DataTable.SearchBuilder = SearchBuilder;
-// eslint-disable-next-line no-extra-parens
 dataTable.SearchBuilder = SearchBuilder;
-// eslint-disable-next-line no-extra-parens
 DataTable.Group = Group;
-// eslint-disable-next-line no-extra-parens
 dataTable.Group = Group;
-// eslint-disable-next-line no-extra-parens
 DataTable.Criteria = Criteria;
-// eslint-disable-next-line no-extra-parens
 dataTable.Criteria = Criteria;
 
-// eslint-disable-next-line no-extra-parens
 let apiRegister = DataTable.Api.register;
 
 // Set up object for plugins
